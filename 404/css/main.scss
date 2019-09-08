@@ -45,7 +45,7 @@ main{
         position: absolute;
         top: 15%;
         left: 50%;
-        transform: translate(-60%,0%);
+        transform: translate(-50%,0%);
         z-index: 1;
         animation: view 4s ease;
         
@@ -97,8 +97,8 @@ main{
             top: 55%;
             font-size: 2em;  
             font-weight: 100;
-            transform: translateX(-2%);
-            letter-spacing: 5px;
+            transform: translateX(0);
+            letter-spacing: 3px;
             animation: view 5s ease;
         }
         @media only screen and (max-width: 620px){

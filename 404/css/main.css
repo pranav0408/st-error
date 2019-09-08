@@ -50,8 +50,8 @@ main .text {
   position: absolute;
   top: 15%;
   left: 50%;
-  -webkit-transform: translate(-60%, 0%);
-          transform: translate(-60%, 0%);
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
   z-index: 1;
   -webkit-animation: view 4s ease;
           animation: view 4s ease;
@@ -102,9 +102,9 @@ main .caption .captionText {
   top: 55%;
   font-size: 2em;
   font-weight: 100;
-  -webkit-transform: translateX(-2%);
-          transform: translateX(-2%);
-  letter-spacing: 5px;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  letter-spacing: 3px;
   -webkit-animation: view 5s ease;
           animation: view 5s ease;
 }
