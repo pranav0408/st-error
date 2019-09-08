@@ -73,6 +73,14 @@ main .text {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  main .text {
+    top: 15%;
+    width: 50vw;
+    height: 70vw;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   main .text {
     top: 2%;

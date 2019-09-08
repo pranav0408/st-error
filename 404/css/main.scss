@@ -63,6 +63,13 @@ main{
                 height: 70vw;
             }
         }
+        @media only screen and ( max-width: 500px){
+            &{  
+                top: 15%;
+                width: 50vw;
+                height: 70vw;
+            }
+        }
         @media only screen and ( max-width: 400px){
             &{  
                 top: 2%;
