@@ -73,17 +73,9 @@ main .text {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  main .text {
-    top: 5%;
-    width: 70vw;
-    height: 90vw;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   main .text {
-    top: 15%;
+    top: 2%;
     width: 70vw;
     height: 90vw;
   }
