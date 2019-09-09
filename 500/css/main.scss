@@ -10,6 +10,13 @@ nav{
     display: flex;
     justify-content: flex-end;
     font-size: 16px;
+    position: absolute;
+    width: 100vw;
+    z-index: 99999;
+    a{
+        text-decoration: none;
+        color: black;
+    }
 
     span{
         margin: 2em 0em;
@@ -20,9 +27,12 @@ nav{
         border: none;
         outline: none;
         cursor: pointer;
-        color: rgba(255,255,255,0.8);
         border-radius: 20px;
-        background: linear-gradient(to right, #4E79C8, #6299F0,)
+        background: linear-gradient(to right, #4E79C8, #6299F0,);
+        
+        a{
+            color: rgba(255,255,255,0.8);
+        }
     }
 
     @media only screen and (max-width: 620px){

@@ -56,7 +56,7 @@ nav #contact a {
 main .text {
   width: 30vw;
   height: 50vh;
-  background: url("../assets/svg/404_text.svg") no-repeat center;
+  background: url("../assets/svg/501_text.svg") no-repeat center;
   background-size: 100% 100%;
   position: absolute;
   top: 15%;
@@ -103,7 +103,7 @@ main .text {
 main .textBack {
   width: 100vw;
   height: 100vh;
-  background: url("../assets/svg/404Back.svg") no-repeat center;
+  background: url("../assets/svg/501Back.svg") no-repeat center;
   background-size: 100% 100%;
   position: absolute;
   top: 0%;
